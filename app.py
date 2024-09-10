@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello Local Openshift Cluster!'
+    return 'Hello Local Openshift Cluster (update test)!'
 
 
 if __name__ == '__main__':
